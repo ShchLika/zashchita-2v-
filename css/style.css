@@ -87,6 +87,7 @@ a {
         font-size: 0.7rem !important;
         max-width: 12rem;
         margin-top: 0.5rem;
+        line-height: 0.84rem;
     }
 
 }
@@ -147,6 +148,7 @@ a {
     @media (max-width: 375px) {
         height: 5rem;
         margin: 0rem;
+        width: 100%;
     }
 }
 
@@ -154,6 +156,7 @@ a {
     display: flex;
     flex-direction: column; 
     gap: 0.5rem; 
+    margin-top: 1rem;
 }
 
 #tkTitle {
@@ -167,6 +170,9 @@ a {
     width: auto; 
     padding: 0.5rem; 
 }
+
+
+
 
 .tktk button {
     width: 10rem; 
